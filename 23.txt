@@ -8,3 +8,9 @@ What aspects of code reviews can AI automate? Select all that apply.|Ensuring co
 What is a benefit of AI-assisted code refactoring?|Improving code readability and maintainability.
 What is one key capability of ChatGPT in assisting Java developers?|Explaining complex Java concepts in an easy-to-understand manner.
 True or false: AI tools guarantee error-free boilerplate code for all projects.|False
+What is one way Amazon Q Developer helps improve the performance of Java code during refactoring?|Recommending the use of enums to replace verbose switch statements.
+What is a primary use case for Generative AI in Java? Select all that apply.|Writing boilerplate code for APIs.$Explaining Java-specific design patterns.
+What enables Generative AI to suggest solutions to coding problems?|Pattern recognition from extensive training data.
+What is a benefit of AI-assisted code refactoring?|Improving code readability and maintainability.
+When setting up an Amazon Q Developer account, what is the initial step?|Register on the Amazon Q Developer portal.
+True or false: AI-generated boilerplate code often requires developer review before integration.|True

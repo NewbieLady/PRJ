@@ -8,3 +8,9 @@ Which of the following statements best describes what "team velocity" is in Scru
 RAD is form of ___.|Agile Software Development Methodology
 Which of the following is NOT a core practice of DevOps?|Manual Configuration
 Which tool is commonly used for version control in DevOps?|Git
+You're part of a team working on a software project that involves significant risks due to uncertain requirements and potential technical challenges. The team decides to use a development model that incorporates risk assessment and iterative cycles to manage these uncertainties. Which SDLC model should the team choose?|Spiral Model
+Which of the following is one of the core values of the Agile Manifesto?|Responding to change over following a plan.
+A development team is working on a large-scale software project where delivering individual features quickly and incrementally is a priority. They want a methodology that focuses on feature planning, design, and implementation. Which methodology is best suited for this approach?|Feature-Driven Development (FDD)
+A Scrum team is working on a sprint and wants to ensure team members stay aligned and address blockers promptly. They hold short daily meetings to discuss progress and plan the next steps. What are these meetings called in the Scrum framework?|Daily Scrum
+Which of the following is a key characteristic of the Rapid Application Development (RAD) model?|Focus on delivering prototypes quickly for iterative feedback.
+True or False: DevOps focuses solely on automating tasks without emphasizing collaboration between teams.|False

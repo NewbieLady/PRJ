@@ -8,3 +8,9 @@ Select the correct output for the following code: 1 2 3 4 int i; for(i=1; i <= 5
 Select the correct output for the following code: 1 2 3 4 int loopVar = 1; while (loopVar <= 3) { System.out.print("Value= " + loopVar); }|Infinite loop
 Select all the values that will be displayed for the following code: 1 2 3 4 5 6 7 int loopVar = 12; do { System.out.println(" " + loopVar); loopVar = loopVar - 4; } while (loopVar <= 3);|12 8 4
 Select the correct output for the following code: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 int x = 12; if(x > 10 ) { System.out.print("A"); if(x < 20) { System.out.print("E"); } else { System.out.print("X"); } } else { System.out.print ("Z"); }|AE
+Select the correct output for the following code snippet: 1 2 3 4 5 int checkVal = 15; if(checkVal > 12 ) { System.out.println("A"); }|A
+Select the correct output for the following code: 1 2 3 4 5 int checkVal = 15; if(checkVal == 12) { System.out.println("A"); }|No output
+Select all the correct outputs for the following code snippet: 1 2 3 4 5 6 7 8 9 10 11 12 int checkVal = 15; if(checkVal <= 15) { System.out.println("**"); } else if (checkVal < 12){ System.out.println("##"); if( checkVal == 15) { System.out.println("$$"); } } else { System.out.println("@@"); }|**
+Select all the correct outputs for the following code: 1 2 3 4 5 6 7 8 9 10 int checkVal = 15; if(checkVal > 10) { if(checkVal < 20) { System.out.println("##"); } if(checkVal % 5 == 0) { System.out.println("!!"); } }|!!$##
+Select all the correct outputs for the following code: 1 2 3 4 int i; for(i=10; i >=0 ; i -= 2) { System.out.println(" " + i); }|10 8 6 4 2 0
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 int loopVar = 1; do { System.out.print (" " + loopVar); loopVar++; } ; while (loopVar <= 3);|1 2 3 4

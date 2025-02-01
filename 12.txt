@@ -13,3 +13,13 @@ What is the time complexity of binary search in the worst case?|O(log n)
 Which method is used to retrieve the greatest key less than or equal to the given key in a TreeMap?|map.floorEntry(K key);
 What is a key characteristic of a LinkedHashMap compared to a HashMap?|It maintains insertion order of elements.
 True or False: In a doubly linked list, the addLast(Node newNode) method adds the new node to the end of the list by updating both the next reference of the current tail and the prev reference of the new node.|True
+Which of the following code snippets correctly performs a binary search for the number 25 in the sorted array int[] array = {5, 15, 25, 35, 45};?|1 2 3 4 5 6 7 8 9 int low = 0; int high = array.length - 1; while (low <= high) { int mid = (low + high) / 2; if (array[mid] == 25) return mid; else if (array[mid] < 25) low = mid + 1; else high = mid - 1; }
+What is the most efficient way to remove a node from the end of a singly linked list?|Traverse to the node before the tail, set its nextto null, and update the tail.
+What is the most efficient way to add a node at the end of a doubly linked list?|Update the next reference of the current tail and the prev reference of the new node.
+Which method would you use to remove all entries from a HashMap<String, Integer> map?|map.clear();
+Which sorting algorithm is not suitable for very large datasets due to its quadratic time complexity?|Insertion Sort
+How does Merge Sort operate?|It divides the array into halves, sorts each half, and then merges them.
+In a sorted array of 1000 elements, how many comparisons would binary search take in the worst case?|10
+What is the time complexity for searching an element in a TreeMap?|O(log n)
+You are retrieving the grade of a student named "Alice" from a LinkedHashMap<String, Integer> map. Which method call would you use to get the student's grade, assuming you want to handle cases where the student may not exist in the map?|map.get("Alice");
+True or false: In a doubly linked list, the addBefore(Node targetNode, Node newNode) method adds the new node after the target node.|False

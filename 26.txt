@@ -8,3 +8,6 @@ Which of the following is least likely to be a primary concern of system archite
 Effective use of color theory in UI design can enhance both visual appeal and usability by guiding user focus and improving readability.|True
 What is the primary goal of user-centered design?|Focusing on the needs, wants, and limitations of the end-user.
 Which of the following are best practices for creating a good user experience (UX)? Select all that apply.|Providing clear navigation to help users find what they need.$Simplifying tasks to reduce user effort.
+Which of the following are examples of User Stories? Select all that apply.|As an administrator, I want to generate reports.$As a user, I want to sign up for an account to access the platform.
+In a UML sequence diagram, what does a "lifeline" represent?|A specific object or participant in a process.
+An e-commerce company is struggling with scalability issues in their app. To address this, they decide to organize the system into three layers: user interface, business logic, and database operations. Which architecture pattern are they applying?|Model-View-Controller

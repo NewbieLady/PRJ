@@ -8,3 +8,9 @@ When a class extends an abstract class, which of the following statements is cor
 Which of the following is the main difference between an abstract method and a concrete method?|A concrete method has an implementation, while an abstract method only has a declaration.
 Which of the following phrases is correct to complete the following sentence: "Interface solves the problem of — ."|the Diamond problem in Java.
 Consider the following Java code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 interface Printable { void print(String name); } class Greetings implements Printable { void print(String name, String message) { System.out.println("Hello "+name+" "+message); } } public class Main { public static void main(String[] args){ Greetings obj = new Greetings(); obj.print("Shane", "Good morning"); } }|This is because the signatures of the print() method in the interface and the class don't match.
+Which of the following is an important factor in designing class hierarchy?|Principle of abstraction.
+The interface in Java is useful for which of the following? Select all that apply.|Solving the diamond problem.$Defining a contract to be fulfilled.
+When should you use interfaces in Java?|To define a contract to be fulfilled.
+Which of the following is one of the built-in interfaces in the Java standard library?|Comparable
+What are the similarities between abstract class and interface? Select all that apply|Both promote code reusability.$Both cannot be instantiated.
+When implementing the Comparable interface, the class needs to define:|compareTo() method

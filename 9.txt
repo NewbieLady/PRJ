@@ -8,3 +8,12 @@ What will be the output when the following Java code is executed? 1 2 3 4 5 6 7 
 Given the following Java class that implements a linked list: 1 2 3 4 5 6 7 8 9 class List { int data; List next; List(int data) { this.data = data; this.next = null; } } Consider the following statements: 1 2 3 4 5 List head = new List(10); head.next = new List(20); head.next.next = new List(30); head.next = head.next.next; After these statements are executed, which nodes will the linked list contain?|10 30
 Given the array declaration int[] arr = new int[5];, which of the following is the correct way to populate the array?|Arrays.fill(arr, [1,2,3,4,5]);
 In an array-based queue implementation, what happens when the rear pointer reaches the end of the array?|The rear pointer wraps around to the front if there is available space
+Consider the following code segment: 1 2 3 ArrayList<String> newList = new ArrayList<String>(); newList.add(100); What will happen when this code is executed?|This would cause a compile-time error
+Which method is used to add an element to an ArrayList in Java?|add()
+Given the following class declaration for a doubly linked list: 1 2 3 4 5 6 7 8 9 10 11 public class DLList { int data; DLList prev; DLList next; public DLList(int data) { // constructor } } Which of the following correctly defines the constructor?|1 2 3 4 5 6 public DLList(int data) { this.data = data; this.prev = null; this.next = null; }
+In a 32-bit JVM, how many additional bytes of memory does a node in a doubly linked list require compared to a node in a singly linked list?|4 bytes
+Which of the following terms are commonly used in both stacks and queues?|peek
+True or false: In a queue, new elements are always added to the rear (end) of the structure.|True
+In a queue data structure, what does the dequeue operation do?|Removes the element at the front of the queue
+You have an array of integers with 10 elements. How would you access the fifth element in the array?|arr[4]
+True or false: Operating systems use the queue data structure to manage the printer spooling mechanism.|True

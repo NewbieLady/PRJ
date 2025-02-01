@@ -8,3 +8,10 @@ True or False: Remote repositories allow multiple developers to collaborate by s
 Your team is managing a software project using Gitflow, and you've just completed work on a feature branch. Before integrating your changes into the main project branches, you need to confirm the correct merging process. Which of the following statements about merging feature branches in Gitflow are correct?|In Gitflow, the feature branch is merged into the develop branch first before being merged into the master branch.
 True or False: Git can be used to manage and version control files other than code.|True
 What is the purpose of git rebase?|To reapply commits from one branch onto another branch.
+Which of the following is a feature of Git that helps prevent loss of work?|Git automatically tracks all changes and provides a history.
+How do you link your local Git repository with a remote GitHub repository?|git remote add origin https://github.com/username/repository.git
+What happens when you run git push origin main?|It pushes changes from the local main branch to the remote repository.
+Which of the following would you use to list all remote repositories linked to your local repository?|git remote -v
+What is the purpose of the develop branch in Gitflow?|It is used for ongoing development and features.
+What does the git status command do?|It displays changes made in your local working directory.
+Your team is working on a project with multiple feature branches, but frequent merge conflicts disrupt the workflow when changes are integrated into the main branch. You've been asked to explore whether using git rebase could help reduce conflicts and improve collaboration. Which of the following statements about git rebase are correct? Select all that apply.|Rebasing rewrites history, which can make the project history cleaner and easier to follow.$Rebasing helps reduce merge conflicts by replaying commits on top of another branch.

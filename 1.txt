@@ -8,3 +8,11 @@ Which data type is used to store whole numbers in Java?|int
 The logical NOT operator is denoted by ________ in Java.|!
 Select the correct output for the following code: 1 2 3 4 5 6 public class Main { public static void main(String[] args) { int remainder = 9 % 4; System.out.println(remainder); } }|1
 True or False: A String object in Java can be modified directly after it is created.|False
+If score = 6, what is the new value of score after score *= 3?|18
+Select the correct output for the following code: 1 2 3 4 5 6 7 public class Main { public static void main(String[] args) { int num = 20; boolean result = num != 15; System.out.println(result); } }|true
+In a new application you are developing, you need to convert all Strings to uppercase to maintain formatting consistency. What method would you use to convert the String word = "awesome" to uppercase?|word.toUpperCase()
+Imagine you are developing a contact management program in Java. You need to display the full name of a contact by combining the first and last names. How would you concatenate the Strings firstName = "Sachin" and lastName = "Smith" and add a space in between?|firstName + " " + lastName
+Salma is writing a Java program to store a greeting message. She encounters an error with the following line of code and needs to identify what is wrong. What is the problem with the following code snippet? String greeting = Hello;|The value Hello should be enclosed in double quotes.
+Which data type is used to store decimal numbers in Java?|double
+To represent a logical OR operation in Java, use ________.|||
+Select the correct output for the following code: 1 2 3 4 5 6 public class Main { public static void main(String[] args) { int remainder = 14 % 5; System.out.println(remainder); } }|4

@@ -8,3 +8,7 @@ Your team has chosen JSP as the view layer for a Spring Boot application. Which 
 Which annotation should you use to specify the table name for a JPA entity?|@Table
 True or False: The Model object in Spring MVC controllers allows you to pass data to the view.|True
 Which annotation should you use to handle REST API requests in a Spring controller?|@RestController
+True or False: Your team is building a Spring Boot application that will need to run independently on different environments without relying on an external application server.|True
+True or False: Spring Boot automatically loads properties from application.properties or application.yml.|True
+Which directive is used to import Java classes in JSP?|<%@ page import="java.util." %>
+Complete the code by selecting the appropriate Spring MVC annotation to map the method to the /products endpoint for the correct HTTP request type. 1 2 3 4 5 // Missing annotation here public String listProducts(Model model) { model.addAttribute("products", productService.getAllProducts()); return "product-list"; }|@GetMapping ("/products")

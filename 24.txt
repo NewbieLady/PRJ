@@ -8,3 +8,10 @@ True or False: Machine Learning (ML) is a subset of Artificial Intelligence (AI)
 What is the role of "features" in a decision tree?|Features are used to split the data and make decisions at each node.
 True or False: A neural network gives output in the hidden layer.|False
 True or False: In a Random Forest, each tree is trained on a random subset of data, and the final prediction is based on the majority vote or the average.|True
+A company implements AI tools to improve productivity, uses analytics to interpret sales trends, and conducts training sessions to prepare employees for new workflows. Which domains of digital transformation does this address?|Technology, Data, and Change management.
+True or False: A company introducing AI-based chatbots to improve customer support is an example of digital transformation.|True
+A retail company wants to adopt digital transformation technologies to improve its operations and customer experience. It is considering using AI for personalized recommendations, IoT devices for real-time inventory tracking, and cloud platforms for data management. Which benefits are these technologies likely to provide?|Improved customer engagement through personalized recommendations.$Scalable data storage and enhanced collaboration.$Real-time monitoring and optimization of inventory.
+Netflix leverages digital transformation by using data analytics and machine learning to enhance user experience. Which of the following best describes how Netflix applies these technologies?|Providing personalized content recommendations based on viewing history.
+Which of the following is a characteristic of a neural network?|Composed of input, hidden, and output layers.
+Which of the following best explains the difference between Artificial Intelligence (AI) and Machine Learning (ML)?|ML is a subset of AI, where ML helps computers learn from data to make decisions or predictions.
+What is the role of neurons in a neural network?|Neurons process inputs and pass the output to the next layer.

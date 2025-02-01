@@ -8,3 +8,10 @@ Which class combination is typically used to read text files in Java?|FileReader
 Which Java class is used to write binary data to a file?|DataOutputStream
 Why is it important to close file streams in Java?|To release system resources.
 Susan needs to keep a log of user activities without losing previous entries. Which approach should she take?|Use FileWriter in append mode.
+What would the following code return if the file "data.txt" exists in the specified directory? 1 2 File file =newFile("/user/files/data.txt"); System.out.println(file.exists());|True
+Which of the following classes is used to write character data to a file in Java?|FileWriter
+What is character encoding in the context of file handling?|A technique to represent characters in bytes.
+What is the purpose of the following code? 1 2 3 4 5 BufferedWriter bufferedWriter = new BufferedWriter( new FileWriter("output.txt") ); bufferedWriter.write("this is a test."); bufferedWriter.close();|Writing "this is a test" to "output.txt".
+What does the following code snippet do? 1 2 3 4 5 6 FileOutputStream fileOutputStream =newFileOutputStream("binary.dat"); DataOutputStream dataOutputStream =newDataOutputStream(fileOutputStream); dataOutputStream.write(12345); dataoutputStream.close(); fileOutputStream.close();|Write an integer to "binary.dat".
+What does the following code ensure? 1 2 3 4 5 6 7 8 9 10 try( BufferedReader bufferedReader = newBufferedReader( newFileReader("data.txt") ) ){ Stringline; while((line=bufferedReader.readLine())!=null){ System.out.println(line); } }|The file is always closed after reading.
+How can you append data to an existing file in Java without overwriting the current contents of the file?|Use FileWriter with append mode.

@@ -8,3 +8,10 @@ Which CSS property defines the alignment of items in a Flexbox container?|justif
 Which CSS property controls the space outside an element's border?|margin
 Which is the correct way to declare a variable in JavaScript?|let x = 5;
 What happens when an error occurs in a try block without a corresponding catch block?|The program crashes.
+Which attribute is required to make an <a> element clickable in HTML?|href
+Which of the following defines a form element in HTML?|<form>
+True or False: HTML forms are used only for login pages and cannot be customized.|False
+Which CSS selector selects all <p> tags within a <div> with the ID container?|#container p
+Which property is used to control the space between Flexbox items?|justify-content
+Which of the following is not part of the CSS box model?|outline
+How do you declare a constant in JavaScript?|const constName = 10;

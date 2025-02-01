@@ -28,3 +28,26 @@ What is one of the primary challenges of long-term software maintenance?|Underst
 What is the purpose of Spring Profiles in deployment?|To manage environment-specific configurations
 A bug appears in production but cannot be reproduced in the development environment. What might be causing this issue?|Environment differences
 What does the @Mock annotation achieve in this test? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 @Mock private UserService userService; @InjectMocks private UserController userController; @Test public void testGetUser() { when(userService.getUserById(1)).thenReturn(new User("John")); assertEquals("John", userController.getUser(1).getName()); }|It replaces the actual service with a simulated version
+True or False: The following code snippet meets the requirement for mobile compatibility? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // Requirements provided: // 1. Login form must work on mobile devices // 2. Log errors on incorrect login // Missing Requirement? public boolean isValid(String username, String password) { if(username == null || password == null){ return false; } return true; }|False
+A developer fixes an error message in one sprint but adds an authentication feature in the next sprint. What does each change represent?|Fixing is an iteration; adding is an increment.
+A development team is tasked with building a secure and user-friendly login feature for a web application. One of the functional requirements states: "When a user attempts to log in if the credentials are invalid, the system must provide a clear error message to guide the user." The team writes the following implementation for the login method. 1 2 3 4 5 6 7 8 9 // Requirement: Validate login, if invalid, give an error message public boolean login(String username, String password) { if(username.isEmpty() || password.isEmpty()) { return false; } return authenticate(username, password); } What functional requirement is missing in this implementation?|Error handling
+True or False: A software program must handle 10,000 users simultaneously and provide a response within 2 seconds. This is an example of a functional requirement.|False
+Which of the following are components that make up the three "C"s of a user story? Select all that apply.|Confirmation$Card$Conversation
+Which INVEST attribute ensures a requirement that can be verified through criteria?|Testable
+What aspect of the Singleton pattern is missing here? 1 2 3 4 5 6 7 8 9 10 11 12 13 // Singleton implementation public class Config { private static Config instance; private Config() {} public static Config getInstance() { if(instance == null) { instance = new Config(); } return instance; } }|Thread-safety
+What type of relationship is depicted in this UML diagram? Author and book boxes are connected by arrow starting at author (1) and ending at book (*)|A one-to-many relationship
+Which of the following statements best describes the purpose of these user stories under the epic "Manage User Accounts"? 1 2 3 4 5 Manage User Accounts User Stories: - [ ] Allow users to update their profiles. - [ ] Enable password recovery.|The purpose is to specify independent, testable functionality.
+A team needs a design pattern to notify all subscribed objects when an object's state changes. Which patterns are commonly used in such scenarios? Select all that apply.|Publisher-Subscriber$Observer
+Which security configuration is required for public access to registration functionality?|Configure permitAll() for /register and /login URLs
+What does this representation depict in UML? Box with Student at top and +enroll():void, +login(): void, +logout(): void underneath.|A class with its methods
+A team reviews its performance after completing a sprint. What is this phase called in Agile?|Sprint Retrospective
+Which clean code principle can improve this code by making it more readable and maintainable? 1 2 3 4 5 6 7 public void processOrder() { validateOrder(); logOrderDetails(); sendEmailConfirmation(); }|Single Responsibility Principle
+A team plans its workflow on a board showing task stages but doesn't define fixed iterations. Which Agile framework are they likely using?|Kanban
+What is the purpose of a conditional breakpoint in debugging?|To pause execution at a specific line of code
+What is the primary purpose of the @EnableWebSecurity annotation in a Spring Boot application?|To mark the class as a configuration class for Spring Security and activates the security filter chain
+What does cloning a repository in Git mean?|Making a duplicate of the repository on your local machine
+What is the purpose of @ControllerAdvice in a Spring Boot application?|To globally handle exceptions and provide error responses for controllers
+When is it most appropriate to use wireframes during UI design?|During the initial layout planning phase
+A team automates testing after every code commit to ensure immediate feedback. Which DevOps practice does this represent?|Continuous Integration
+In Spring, the ____ annotation activates a specific profile during runtime.|@Profile
+What tool could you use to verify the method output for value = 10? 1 2 3 4 5 6 7 8 9 public void calculate(int value) { if (value < 10) { System.out.println("Low value"); } else { System.out.println("High value"); } }|Conditional breakpoint
