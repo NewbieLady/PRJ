@@ -1,0 +1,10 @@
+Which of the following statements will initialize an array correctly? Select all that apply.|int[] positiveNumber = {1,2,3,4,5};$int[] positiveNumber =new int[]{1,2,3,4,5};
+Which of the following is not a method of the ArrayList class?|append()
+What happens when an ArrayList in Java exceeds its current capacity?|It creates a new array that doubles the size and copies the elements.
+What are the advantages of using an ArrayList over an array?|The size of an ArrayList is dynamic
+True or false: In a linked list, the size of the list must be specified at the time of creation.|False
+Which of the following is not a queue operation?|pop
+What will be the output when the following Java code is executed? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 import java.util.ArrayList; class Stack { private int[] arr; int top; Stack(int size) { arr = new int[size]; top = -1; } public void push(int val) { top++; arr[top] = val; } public int pop() { int val = arr[top]; top--; return val; } } public class Main { public static void main(String[] args) { Stack stack = new Stack(5); stack.push(10); stack.pop(); stack.push(20); stack.push(30); System.out.println("Popped Element = " + stack.pop()); } }|popped Element = 30
+Given the following Java class that implements a linked list: 1 2 3 4 5 6 7 8 9 class List { int data; List next; List(int data) { this.data = data; this.next = null; } } Consider the following statements: 1 2 3 4 5 List head = new List(10); head.next = new List(20); head.next.next = new List(30); head.next = head.next.next; After these statements are executed, which nodes will the linked list contain?|10 30
+Given the array declaration int[] arr = new int[5];, which of the following is the correct way to populate the array?|Arrays.fill(arr, [1,2,3,4,5]);
+In an array-based queue implementation, what happens when the rear pointer reaches the end of the array?|The rear pointer wraps around to the front if there is available space

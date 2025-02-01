@@ -1,0 +1,10 @@
+If total = 50, what is the new value of total after total += 10?|60
+Select the correct output for the following code: 1 2 3 4 5 6 7 public class Main { public static void main(String[] args) { int num = 10; boolean result = num == 10; System.out.println(result); } }|true
+Alex is writing a program to store user information. How would he declare an integer variable named age and initialize it to 20?|int age = 20;
+Andrea is working on a text processing application and needs to extract a specific part of a String. What method would she use to extract the substring "Dark" from the String sentence = "The Dark Web"?|sentence.substring(4, 8)
+Imagine you are writing a welcome message for a user in an application. Which code snippet would you use to combine the Strings greeting = "Hello" and name = "Alice" with a comma and a space in between?|greeting + ", " + name
+You are developing a Java program to perform basic arithmetic and write a snippet to divide two numbers. However, the output is not what you expected. What is wrong with the following code snippet? 1 2 int result = 5 / 2; System.out.println(result);|The variable result should be a double.
+Which data type is used to store whole numbers in Java?|int
+The logical NOT operator is denoted by ________ in Java.|!
+Select the correct output for the following code: 1 2 3 4 5 6 public class Main { public static void main(String[] args) { int remainder = 9 % 4; System.out.println(remainder); } }|1
+True or False: A String object in Java can be modified directly after it is created.|False

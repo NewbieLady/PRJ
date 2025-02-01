@@ -1,0 +1,10 @@
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 9 int checkVal = 15; if(checkVal > 12 ) { System.out.println("A"); } if(checkVal < 17) { System.out.println("C"); }|A and C
+Select the correct output for the following code: 1 2 3 4 5 int checkVal = 15; if(checkVal = 12) { System.out.println("A"); }|Compilation error
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 int checkVal = 15; if(checkVal < 12) { System.out.println("**"); } else { System.out.println("##"); }|##
+Select the correct output for the following code: 1 2 3 4 5 6 7 int checkVal = 15; if(checkVal > 10) { if(checkVal < 20) { System.out.println("##"); } }|##
+Select the correct output for the following code: 1 2 3 4 5 6 int variable1 = 5, variable2 = 10; if(variable1 > 3 && variable2 <25) { System.out.println("##"); }|##
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 int month = 6; switch (month) { case 1: System.out.println("January"); break; case 2: System.out.println("February"); break; case 3: System.out.println("March"); break; case 10: System.out.println("October"); break; case 11: System.out.println("November"); break; case 12: System.out.println("December"); break; default: System.out.println("Invalid month for a playing with snow in our zone."); }|Invalid month for playing with snow in our zone
+Select the correct output for the following code: 1 2 3 4 int i; for(i=1; i <= 5 ; i++) System.out.println(" " + i); System.out.println(" # " + i);|1 2 3 4 5 # 6
+Select the correct output for the following code: 1 2 3 4 int loopVar = 1; while (loopVar <= 3) { System.out.print("Value= " + loopVar); }|Infinite loop
+Select all the values that will be displayed for the following code: 1 2 3 4 5 6 7 int loopVar = 12; do { System.out.println(" " + loopVar); loopVar = loopVar - 4; } while (loopVar <= 3);|12 8 4
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 int x = 12; if(x > 10 ) { System.out.print("A"); if(x < 20) { System.out.print("E"); } else { System.out.print("X"); } } else { System.out.print ("Z"); }|AE

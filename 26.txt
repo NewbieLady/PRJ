@@ -1,0 +1,10 @@
+Which of the following is an example of a non-functional requirement?|The system must allow users to log in within 5 seconds.
+What is a key benefit of using iterative development?|Iterative development allows early and continuous delivery of valuable software.
+Which of the following are examples of non-functional requirements? Select all that apply.|The system should support 100,000 users concurrently.$The system should process payments within 5 seconds.
+Your agile team is reviewing user stories for a new e-commerce platform. One story reads: "As a customer, I want to browse all products, filter them by category, compare prices, and view customer reviews to make informed decisions." Based on the INVEST criteria, what is the primary issue with this user story?|The user story is too large to complete within one iteration.
+Which of the following best describes the purpose of software design?|Defining the system's architecture and specifying how components interact.
+Which of the following UML diagrams represents the flow of control in a system?|Activity diagram
+Which of the following is least likely to be a primary concern of system architecture?|Designing visually appealing interfaces for end users.
+Effective use of color theory in UI design can enhance both visual appeal and usability by guiding user focus and improving readability.|True
+What is the primary goal of user-centered design?|Focusing on the needs, wants, and limitations of the end-user.
+Which of the following are best practices for creating a good user experience (UX)? Select all that apply.|Providing clear navigation to help users find what they need.$Simplifying tasks to reduce user effort.

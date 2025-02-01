@@ -1,0 +1,10 @@
+Which of these phrases can complete the sentence: "In Java, the interface - - - ." Select all that apply.|can not be instantiated.$can extend another interface.
+Which of the following statements are true in a class hierarchy design? Select all that apply.|The abstract class defines the common properties and abstract methods.$The abstract class may have some concrete methods too.
+Complete the following sentence. "As in Java 8, an interface can have — ." Select all that apply.|default methods.$static methods.$abstract methods.
+Why can an interface extend another interface, but it cannot implement another interface?|Because interfaces are contracts to be fulfilled by a class.
+Why can't an interface in Java extend a class?|Because it cannot be instantiated.
+Which of the following are the correct signatures of an abstract method? Select all that apply.|abstract void method();$public abstract void method();
+When a class extends an abstract class, which of the following statements is correct?|It must override the abstract methods.
+Which of the following is the main difference between an abstract method and a concrete method?|A concrete method has an implementation, while an abstract method only has a declaration.
+Which of the following phrases is correct to complete the following sentence: "Interface solves the problem of — ."|the Diamond problem in Java.
+Consider the following Java code 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 interface Printable { void print(String name); } class Greetings implements Printable { void print(String name, String message) { System.out.println("Hello "+name+" "+message); } } public class Main { public static void main(String[] args){ Greetings obj = new Greetings(); obj.print("Shane", "Good morning"); } }|This is because the signatures of the print() method in the interface and the class don't match.

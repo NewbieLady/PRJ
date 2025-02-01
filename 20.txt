@@ -1,0 +1,10 @@
+Which embedded server is enabled by default in Spring Boot applications?|Tomcat
+In Spring Security, which method configures role-based access control for HTTP requests?|authorizeRequests()
+A developer on your team added a new JPA entity but forgot to annotate it. They're wondering why database operations aren't working. True or False: Spring Data JPA requires the @Entity annotation to identify a class as a JPA entity.|True
+Complete the configuration to expose all Actuator endpoints: management.endpoints.web.exposure.include=_____|"all"
+How can you define a custom property in application.properties?|custom.property=value
+You need to build a deployable JAR file of your Spring Boot application. Which Maven goal is used to create a JAR file?|mvn package
+Your team has chosen JSP as the view layer for a Spring Boot application. Which additional configuration step is needed to render JSP pages correctly?|Add a view resolver for JSP
+Which annotation should you use to specify the table name for a JPA entity?|@Table
+True or False: The Model object in Spring MVC controllers allows you to pass data to the view.|True
+Which annotation should you use to handle REST API requests in a Spring controller?|@RestController

@@ -1,0 +1,30 @@
+A client assumes the software will use Java 8 due to legacy systems, but developers build it with Java 17. This highlights which challenge?|Non-functional requirement issues
+What is the primary difference between iteration and increment in software development?|Iteration refers to a time-boxed development cycle, while increment refers to adding features.
+Which of the following is an example of a functional requirement?|The system should allow users to reset their password.
+Which of the following is a non-functional requirement?|The system should handle up to 1,000 simultaneous users.
+A team writes a story: "As a user, I want to save my progress to continue where I left off." What component ensures it's testable?|Confirmation
+A story that relies on another story violates the ____ principle of INVEST.|Independent
+What is a key benefit of using design patterns in software design?|Increasing software maintainability.
+Which of the following represents a one-to-many relationship in UML?|1..*
+You are part of a project team who have been asked to develop a new online store. "Develop payment system" is listed as an epic. Which of the following could be a related user story?|As a user, I want to pay using my credit card.
+What pattern is being implemented in this code? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 public class Logger { private static Logger instance; private Logger() {} public static Logger getInstance() { if (instance == null) { instance = new Logger(); } return instance; } }|Singleton
+In the ToDoRails Elite Application, what is the primary purpose of implementing the SecurityConfig class?|To configure authentication and secure API endpoints
+Which of the following are core components of UML notation? Select all that apply.|Actors$Use Cases
+An Agile development team has gathered to discuss and assign tasks for an upcoming sprint. The team is reviewing the backlog, determining which items can be completed within the sprint, and breaking those items down into smaller, manageable tasks.|Sprint Planning
+A codebase has multiple methods that validate input data, but each method uses slightly different logic to achieve the same result. Which clean code principle is violated?|DRY
+What is the main purpose of the class SimpleGrantedAuthority in Spring Security?|To define roles or authorities granted to a user.
+The ____ SDLC model is linear and works best for projects with well-defined requirements.|Waterfall
+The Agile framework that focuses on delivering customer value through constant code improvement is ____.|Extreme Programming (XP)
+A developer wants to pause execution only when a variable x exceeds 100. Which debugging tool should they use?|Conditional breakpoint
+What does setting debug=true in the @EnableWebSecurity(debug=true) enable in a Spring Boot application?|It logs detailed information about the Security filter chain
+What happens if the Spring Boot application is running in INFO log level? 1 2 3 4 5 Logger logger = LoggerFactory.getLogger(MyClass.class); logger.info("Application started"); logger.debug("Debugging details...");|Only the first message is logged
+A developer accidentally removes critical sections of code and needs a tool to restore the project to its previous state. Which tool is best suited for this task?|Version Control System (VCS)
+The git pull command is used to ____ changes from a remote repository.|Fetch and merge
+A class contains multiple methods performing similar tasks with slight variations. Which clean code principle should be applied?|DRY
+What is the key difference between @NotNull and @NotBlank in a Spring Boot application?|@NotNull validates that a field is not null while @NotBlank ensures that a field is not null and contains at least one non-whitespace character, such as letters, digits, symbols, and so on
+A team wants a quick, low-detail visualization of a page layout. What tool should they use?|Wireframe
+Which practice in DevOps focuses on automating builds and deployments?|Continuous Integration
+What is one of the primary challenges of long-term software maintenance?|Understanding an unfamiliar codebase
+What is the purpose of Spring Profiles in deployment?|To manage environment-specific configurations
+A bug appears in production but cannot be reproduced in the development environment. What might be causing this issue?|Environment differences
+What does the @Mock annotation achieve in this test? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 @Mock private UserService userService; @InjectMocks private UserController userController; @Test public void testGetUser() { when(userService.getUserById(1)).thenReturn(new User("John")); assertEquals("John", userController.getUser(1).getName()); }|It replaces the actual service with a simulated version

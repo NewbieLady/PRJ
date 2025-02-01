@@ -1,0 +1,10 @@
+Which of the following is used for black box testing? Select all that apply.|Integration testing$Acceptance testing$System testing
+True or False: Manual testing is faster than automated testing for repetitive tasks.|False
+True or False: A test case is a list of bugs found during the testing phase.|False
+What is the first step when writing a test case for a feature?|Identify the test scenario or feature to be tested.
+Which of the following automated tools are used to test core Java applications? Select all that apply.|TestNG$JUnit
+True or False: Version control systems are primarily used to test code.|False
+You are working on a new project in IntelliJ and want to set up Git for version control. After creating the project, what is the first step to start using Git for the project?|Initialize the repository with git init.
+You are developing a new feature using test-driven development in Java. How does JUnit help in the TDD process. Select all that apply.|It helps identify whether new code passes or fails.$It facilitates refactoring by ensuring that the existing tests still pass.$It allows you to write tests before implementing the feature.
+You have implemented a method -add(int a, int b) - in a class named Calculator, using TDD and it works perfectly. Now, the requirements have changed, and you are required to first multiply each number passed by 2 before adding them. Which stage of the Red-Green-Refactor cycle are you in?|Red - write a new failing test for the updated functionality in a new method.
+You have several test classes for your application, namely AddTest, SubtractTest, and MultipleTest. What is the primary benefit of running them as part of a test suite?|It allows you to test multiple functionalities and test classes in one execution.

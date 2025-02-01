@@ -1,0 +1,10 @@
+Which of the following best describes a file in computing?|A collection of data stored in a storage device.
+What is the purpose of the File class in Java?|To represent the name and path of a file or directory.
+Which Java class is primarily used to read data from a file?|FileReader
+Emily needs to write logs to a text file without overwriting the existing content. Which class should she use?|FileWriter with append mode as true.
+Which of the following is true about character streams in Java?|They are used for text data.
+Lisa's application needs to support multiple Latin languages. Which character encoding should she use to handle various languages efficiently?|UTF-8
+Which class combination is typically used to read text files in Java?|FileReader with BufferedReader
+Which Java class is used to write binary data to a file?|DataOutputStream
+Why is it important to close file streams in Java?|To release system resources.
+Susan needs to keep a log of user activities without losing previous entries. Which approach should she take?|Use FileWriter in append mode.

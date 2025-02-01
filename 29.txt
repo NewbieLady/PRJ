@@ -1,0 +1,10 @@
+Which of the following is a benefit of using version control? Select all that apply.|Helps merge code changes and highlights potential conflicts.$Tracks changes and maintains a history of the project.$Organizes project versions and changes for better tracking.$Enables collaboration among multiple developers.
+True or False: GitHub is an online platform that hosts remote repositories, and Git is a tool to manage version control locally.|True
+True or False: Git can be installed on Windows, macOS, and Linux systems.|True
+What is the first step in setting up a GitHub account?|Create a username and password on GitHub.
+What does the command git add do?|It stages changes for the next commit.
+You are collaborating with your team on a software project using Git. One of your teammates frequently uses the git pull command to update their local repository, but you're unsure exactly what this command does. Which of the following statements about the git pull command are correct?|Git pull fetches changes from the remote repository and merges them into your local branch.
+True or False: Remote repositories allow multiple developers to collaborate by sharing changes.|True
+Your team is managing a software project using Gitflow, and you've just completed work on a feature branch. Before integrating your changes into the main project branches, you need to confirm the correct merging process. Which of the following statements about merging feature branches in Gitflow are correct?|In Gitflow, the feature branch is merged into the develop branch first before being merged into the master branch.
+True or False: Git can be used to manage and version control files other than code.|True
+What is the purpose of git rebase?|To reapply commits from one branch onto another branch.

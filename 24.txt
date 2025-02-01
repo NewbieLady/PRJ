@@ -1,0 +1,10 @@
+Which of the following are the key domains of digital transformation? Select all that apply.|Change management$Data$Technology
+Which of the following best describes digital transformation?|The process of integrating digital technology into all business areas to improve efficiency and deliver value.
+True or False. Neural networks are composed of layers, including input, hidden, and output layers, where neurons in each layer are connected to neurons in the next layer.|True
+A hospital adopts cloud computing as part of its digital transformation strategy. What is the primary benefit of using cloud computing in this scenario.|Providing secure, scalable storage for patient medical records.
+What is the primary role of data in digital transformation?|To provide insights that drive informed decision-making and improve efficiency.
+What is the purpose of the hidden layer in a neural network?|To extract and learn features from input data.
+True or False: Machine Learning (ML) is a subset of Artificial Intelligence (AI) that focuses on enabling systems to learn and improve from data.|True
+What is the role of "features" in a decision tree?|Features are used to split the data and make decisions at each node.
+True or False: A neural network gives output in the hidden layer.|False
+True or False: In a Random Forest, each tree is trained on a random subset of data, and the final prediction is based on the majority vote or the average.|True

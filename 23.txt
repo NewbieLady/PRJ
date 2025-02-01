@@ -1,0 +1,10 @@
+What is a "contextual prompt" in Generative AI tools?|A prompt that includes background information to help the AI provide accurate answers.
+How does Amazon Q Developer assist in refactoring Java code to improve readability and performance?|Suggesting changes to refactor verbose switch statements into cleaner enum-based methods.
+How does AI help with code refactoring?|By identifying opportunities for simplification.
+What is one major benefit of using Generative AI in software development?|Reducing repetitive coding tasks.
+What is one way Generative AI improves the code review process?|By identifying areas of inefficiency in the code.
+What is the basis of Generative AI's ability to write code?|Pre-trained models that understand syntax and patterns.
+What aspects of code reviews can AI automate? Select all that apply.|Ensuring compliance with coding standards.$Highlighting security vulnerabilities.$Identifying inefficiencies in algorithms.
+What is a benefit of AI-assisted code refactoring?|Improving code readability and maintainability.
+What is one key capability of ChatGPT in assisting Java developers?|Explaining complex Java concepts in an easy-to-understand manner.
+True or false: AI tools guarantee error-free boilerplate code for all projects.|False

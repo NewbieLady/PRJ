@@ -1,0 +1,5 @@
+Which format is correct for a JDBC URL in Java to connect to a MySQL database?|jdbc:mysql://localhost:3306/database_name
+A developer wants to connect to a MySQL database on clicknbuy on localhost, running on port 3308. The credentials are username: admin, password: root. Which options correctly describe the steps or JDBC URL? Select all that apply.|The JDBC URL should be: jdbc:mysql://localhost:3308/clicknbuy.$Use the DriverManager.getConnection("jdbc:mysql://localhost:3308/clicknbuy", "admin," "root") method to establish the connection.
+Which of the following are the correct steps to execute a query using Connection and Statement in JDBC? Select all that apply.|Execute the query using the Statement object.$Establish a connection using the Connection object.$Load the JDBC driver.
+Which of the following methods is used to move the cursor forward one row in a ResultSet in JDBC?|next()
+Which statements about parameterized queries in PreparedStatement in JDBC are true? Select all that apply.|Parameterized queries allow setting values dynamically using placeholders (?).$Parameterized queries improve performance by pre-compiling the SQL query.

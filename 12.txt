@@ -1,0 +1,15 @@
+You are developing a weather reporting system that needs to store the names of 10 cities for which will generate forecasts. Which of the following correctly declares an array to store the names of 10 cities?|String[] cities = new String[10];
+In an ArrayList managing tasks for your to-do list application, how would you update the task "Buy Groceries" to "Buy Groceries and Cook Dinner"?|tasks.set(tasks.indexOf("Buy Groceries"), "Buy Groceries and Cook Dinner");
+You need to search for a specific number in an unsorted list of integers. Given the array int[] numbers = {5, 2, 8, 3, 1};, which of the following code snippets performs a linear search for the number 3?|1 2 3 for (int i = 0; i < numbers.length; i++) { if (numbers[i] == 3) return i; }
+Which code snippet correctly checks for balanced parentheses in the string "{[()]}" using a stack?|1 2 3 4 5 6 7 8 9 10 11 12 Stack<Character> stack = new Stack<>(); for (char c : "{[()]}".toCharArray()) { if (c == '(' || c == '{' || c == '[') { stack.add(c); } else { if (stack.isEmpty()) return false; char top = stack.pop(); if (c == ')' && top != '(' || c == '}' && top != '{' || c == ']' && top != '[') return false; } } return stack.isEmpty();
+What is the most efficient way to add a new node at the beginning of a singly linked list?|Set the new node's next reference to the current head and update the head to the new node.
+What is a characteristic of a doubly linked list that a singly linked list does not have?|Each node has two references: one to the next node and one to the previous node.
+Which method retrieves the value associated with the key name from a HashMap<String, String> map?|map.get("name");
+You are writing a JUnit test class that opens a database connection for multiple tests. Which annotation would you use to ensure that the database connection is closed only once after all tests in the class have been executed?|@AfterAll
+Which algorithm is most efficient for large datasets?|Merge Sort
+What is the time complexity of Merge Sort?|O(n log n)
+How does Quick Sort choose the pivot element?|It can use various strategies, like the first, last, or median element.
+What is the time complexity of binary search in the worst case?|O(log n)
+Which method is used to retrieve the greatest key less than or equal to the given key in a TreeMap?|map.floorEntry(K key);
+What is a key characteristic of a LinkedHashMap compared to a HashMap?|It maintains insertion order of elements.
+True or False: In a doubly linked list, the addLast(Node newNode) method adds the new node to the end of the list by updating both the next reference of the current tail and the prev reference of the new node.|True

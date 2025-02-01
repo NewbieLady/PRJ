@@ -1,0 +1,10 @@
+Which phase of the Software Development Life Cycle (SDLC) focuses on creating the architecture and design of the software?|Design
+What is the primary goal of the Testing phase in SDLC?|Identifying and fixing defects
+A software development team is working on a project with clearly defined requirements that are unlikely to change. They plan to complete the phases of requirements, design, development, and testing sequentially, one at a time. Which SDLC model best suits their approach?|Waterfall Model
+Which SDLC model delivers software in small, usable pieces?|Agile Model
+What does the Agile methodology emphasize? Select all that apply.|Continuous collaboration with stakeholders$Iterative development
+Which of the following Agile frameworks emphasizes using a visual workflow management system to track progress?|Kanban
+Which of the following statements best describes what "team velocity" is in Scrum?|A measure of the team's capacity to complete work, expressed in story points or other units, over a sprint.
+RAD is form of ___.|Agile Software Development Methodology
+Which of the following is NOT a core practice of DevOps?|Manual Configuration
+Which tool is commonly used for version control in DevOps?|Git
