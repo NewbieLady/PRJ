@@ -16,3 +16,10 @@ What does the saveBook method in BookService do?|Adds a book to the collection a
 What tool can be used to debug issues in Java applications using IntelliJ IDEA?|Breakpoints
 Which clean code principles can be applied to improve the maintainability and clarity of this method? Select all that apply. 1 2 3 4 5 6 7 8 9 10 11 12 public void generateReport() { int x = 1; int y = 2; int z = x + y; System.out.println("The result is " + z); if (x > 0 && y > 0) { System.out.println("Both numbers are positive."); } for (int i = 0; i < 10; i++) { System.out.println("Iteration: " + i); } }|Single Responsibility Principle$Meaningful and descriptive names$Short Functions
 What is the purpose of Spring Profiles in deployment?|To manage environment-specific configurations
+Which of the following is a common challenge faced during debugging?|Misinterpreted or incomplete logs.
+What is the primary function of breakpoints in debugging?|To pause execution and inspect the program's state.
+Which testing tool is commonly used to validate REST controllers in Spring applications?|MockMvc
+Which JUnit method is used to validate that a specific exception is thrown during service testing?|assertThrows()
+True or false: The saveBook method in BookService can handle duplicate IDs without overwriting data.|False
+What maintenance challenge does this scenario highlight? 1 2 3 4 Scenario: - A bug was introduced during a code update. - There is no documentation or version history for the module. - The team spends two weeks troubleshooting the issue.|Lack of proper documentation
+A developer creates a method that validates user input, logs the data, and updates the database. Which clean code principle is being violated?|Single Responsibility Principle

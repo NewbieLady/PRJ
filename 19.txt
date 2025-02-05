@@ -4,7 +4,7 @@ Which tag defines the header cell in a table?|<th>
 Which attribute is used to specify the HTTP method type for form submission?|method
 The <table> tag in HTML is used to create both tables and lists.|False
 Which CSS selector would you use to style all <h1> elements inside a <section> element with the class content?|.content h1
-Which CSS property defines the alignment of items in a Flexbox container?|justify-content
+Which CSS property defines the alignment of items in a Flexbox container?|align-items
 Which CSS property controls the space outside an element's border?|margin
 Which is the correct way to declare a variable in JavaScript?|let x = 5;
 What happens when an error occurs in a try block without a corresponding catch block?|The program crashes.
@@ -15,3 +15,8 @@ Which CSS selector selects all <p> tags within a <div> with the ID container?|#c
 Which property is used to control the space between Flexbox items?|justify-content
 Which of the following is not part of the CSS box model?|outline
 How do you declare a constant in JavaScript?|const constName = 10;
+Which operator checks if two variables are equal in value only?|==
+Which CSS selector would you use to select all elements with the class highlight?|.highlight
+In the box model, which area is closest to the content|padding
+Which of the following statements creates a block-scoped variable in JavaScript?|let name = "John";
+In JavaScript, how does a catch block function when used after a try block?|It handles errors that occur in the try block.

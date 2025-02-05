@@ -11,3 +11,7 @@ Which of the following are best practices for creating a good user experience (U
 Which of the following are examples of User Stories? Select all that apply.|As an administrator, I want to generate reports.$As a user, I want to sign up for an account to access the platform.
 In a UML sequence diagram, what does a "lifeline" represent?|A specific object or participant in a process.
 An e-commerce company is struggling with scalability issues in their app. To address this, they decide to organize the system into three layers: user interface, business logic, and database operations. Which architecture pattern are they applying?|Model-View-Controller
+In agile methodology, what is the relationship between iteration and increment?|An iteration delivers a time-boxed set of tasks, while an increment is a functional addition to the product.
+An e-commerce website experiences a high drop-off rate during the checkout process. Feedback reveals that users find the process frustrating and time-consuming. Which of the following improvements would most likely reduce abandonment rates?|Reducing the number of required steps to complete the checkout.
+True or False: Good UX design focuses on improving the satisfaction and experience of users when interacting with a system.|True
+Users testing a project management dashboard report feeling overwhelmed by the amount of information displayed. What principle of good UI design should the team prioritize?|Conciseness - reducing the dashboard's complexity by focusing on the most critical information.

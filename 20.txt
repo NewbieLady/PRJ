@@ -12,3 +12,10 @@ True or False: Your team is building a Spring Boot application that will need to
 True or False: Spring Boot automatically loads properties from application.properties or application.yml.|True
 Which directive is used to import Java classes in JSP?|<%@ page import="java.util." %>
 Complete the code by selecting the appropriate Spring MVC annotation to map the method to the /products endpoint for the correct HTTP request type. 1 2 3 4 5 // Missing annotation here public String listProducts(Model model) { model.addAttribute("products", productService.getAllProducts()); return "product-list"; }|@GetMapping ("/products")
+A new requirement states that only authenticated admin users should be able to access the /admin endpoint. Which code snippet correctly configures this in Spring Security? 1 2 3 http.authorizeRequests() .requestMatchers("/admin")._____;|hasRole("ADMIN")
+True or False: The Actuator /metrics endpoint requires additional configuration to be accessible.|True
+Your team wants to change the default server port for a Spring Boot application to 9090. Which configuration property would achieve this in application.properties?|server.port=9090
+In a Spring Boot project, which plugin is used to package the application?|spring-boot-maven-plugin
+True or False: Spring Boot supports JSP as a view layer.|True
+True or False: Thymeleaf templates allow you to bind form data directly to model attributes.|True
+Which of the following is true about the @Service annotation in Spring Boot?|It separates business logic from the controller, promoting organized code.

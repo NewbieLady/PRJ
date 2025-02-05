@@ -1,4 +1,4 @@
-Which of the following is used for black box testing? Select all that apply.|Integration testing$Acceptance testing$System testing
+Which of the following is used for black box testing? Select all that apply.|Acceptance testing$System testing
 True or False: Manual testing is faster than automated testing for repetitive tasks.|False
 True or False: A test case is a list of bugs found during the testing phase.|False
 What is the first step when writing a test case for a feature?|Identify the test scenario or feature to be tested.
@@ -15,3 +15,6 @@ What is the primary purpose of version control in the software development proce
 You are working on a Git project. You make changes to a file which was previously committed. So, what are the stages that you would go through to save the changes?|Modified - staged - committed
 You are following the Test-Driven Development (TDD) approach to implement a method in Java that calculates the sum of three numbers. What is the first step in this process?|Write a failing test using JUnit for the method.
 You have three separate test classes for your Calculatorclass. The test classes are AddTest, SubtractTest and MultiplyTest. How can you run all of these test classes at once?|By creating a JUnit test suite and including the test classes we want to run together.
+Which of the following components are included in a test case? Select all that apply.|Pre-conditions$Expected results$A set of instructions
+True or False: Jenkins is used as a continuous integration tool, not for writing Java tests.|True
+What role does JUnit play in Test Driven Development (TDD) when testing Java code?|JUnit helps in writing unit tests before writing the actual code.

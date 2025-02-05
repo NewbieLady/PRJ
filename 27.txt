@@ -14,3 +14,5 @@ A development team is working on a large-scale software project where delivering
 A Scrum team is working on a sprint and wants to ensure team members stay aligned and address blockers promptly. They hold short daily meetings to discuss progress and plan the next steps. What are these meetings called in the Scrum framework?|Daily Scrum
 Which of the following is a key characteristic of the Rapid Application Development (RAD) model?|Focus on delivering prototypes quickly for iterative feedback.
 True or False: DevOps focuses solely on automating tasks without emphasizing collaboration between teams.|False
+A software development team is working on a new e-commerce application. They need a document that clearly defines the features the system should have, such as user login, product search, and payment processing, as well as constraints like performance, security, and usability standards. What document should the team create to outline these functional and non-functional requirements?|Software Requirement Specification (SRS)
+Which of the following SDLC models are iterative in nature? Select all that apply.|Agile Model$Spiral-Model

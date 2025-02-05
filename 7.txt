@@ -15,3 +15,8 @@ What is the purpose of the following code? 1 2 3 4 5 BufferedWriter bufferedWrit
 What does the following code snippet do? 1 2 3 4 5 6 FileOutputStream fileOutputStream =newFileOutputStream("binary.dat"); DataOutputStream dataOutputStream =newDataOutputStream(fileOutputStream); dataOutputStream.write(12345); dataoutputStream.close(); fileOutputStream.close();|Write an integer to "binary.dat".
 What does the following code ensure? 1 2 3 4 5 6 7 8 9 10 try( BufferedReader bufferedReader = newBufferedReader( newFileReader("data.txt") ) ){ Stringline; while((line=bufferedReader.readLine())!=null){ System.out.println(line); } }|The file is always closed after reading.
 How can you append data to an existing file in Java without overwriting the current contents of the file?|Use FileWriter with append mode.
+Given the following code snippet, which part of it is responsible for creating a new file object? File file =newFile("sample.txt");|newFile()
+Tom needs to read user input from a file named "input.txt." Which class should Tom use to do this efficiently in Java? Select all that apply.|FileReader$BufferedReader$FileInputStream
+What does the following code do? 1 2 3 FileWriter fileWriter =newFileWriter("output.txt"); fileWriter.write("Hello,World!"); fileWriter.close();|Writes "Hello, World!" to "output.txt".
+David needs to process a text file containing UTF-8 encoded data. Which stream type should he use?|Character stream
+Mark needs to write user input to a text file called "user_input.txt" line by line. Which combination of classes should he use?|FileWriter and BufferedWriter

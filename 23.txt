@@ -14,3 +14,7 @@ What enables Generative AI to suggest solutions to coding problems?|Pattern reco
 What is a benefit of AI-assisted code refactoring?|Improving code readability and maintainability.
 When setting up an Amazon Q Developer account, what is the initial step?|Register on the Amazon Q Developer portal.
 True or false: AI-generated boilerplate code often requires developer review before integration.|True
+How do developers interact with Generative AI tools? Select all that apply.|Providing detailed context for complex tasks.$Using simple queries for basic outputs.$Refining prompts to improve AI output.
+What is a feature of AI-powered refactoring tools?|Detecting redundant code for removal.
+What role does Generative AI play in automating code reviews?|Highlighting inefficiencies and suggesting improvements.
+How can AI enhance the quality of code reviews? Select all that apply.|By enforcing coding best practices.$By reducing review times significantly.$By suggesting modularization for large functions.

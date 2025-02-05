@@ -23,3 +23,11 @@ In a sorted array of 1000 elements, how many comparisons would binary search tak
 What is the time complexity for searching an element in a TreeMap?|O(log n)
 You are retrieving the grade of a student named "Alice" from a LinkedHashMap<String, Integer> map. Which method call would you use to get the student's grade, assuming you want to handle cases where the student may not exist in the map?|map.get("Alice");
 True or false: In a doubly linked list, the addBefore(Node targetNode, Node newNode) method adds the new node after the target node.|False
+You are developing a weather prediction system that needs to store daily temperature values for a week. Which of the following correctly declares an array to store daily temperatures?|int[] temperatures = new int[7];
+In your personal to-do list application, tasks are managed using an ArrayList. How would you add a task named "Call Mom" to the list?|tasks.add("Call Mom");
+How would you use a stack to evaluate the postfix expression "3 4 + 2 * 7 /"?|1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 Stack<Integer> stack = new Stack<>(); String[] tokens = "3 4 + 2 * 7 /".split(" "); for (String token : tokens) { if (token.matches("\\d+")) { stack.push(Integer.parseInt(token)); } else { int b = stack.pop(); int a = stack.pop(); switch (token) { case "+": stack.push(a + b); break; case "-": stack.push(a - b); break; case "*": stack.push(a * b); break; case "/": stack.push(a / b); break; } } } return stack.pop();
+What is the purpose of using assertions in JUnit tests?|To verify that a condition holds true during test execution.
+Which sorting algorithm performs most efficiently for small datasets?|Insertion Sort
+What is an advantage of Merge Sort over Quick Sort?|It is stable and always O(n log n).
+What is the worst-case time complexity of Quick Sort?|O(n2)
+What is the primary benefit of using a TreeMap over a HashMap?|Elements are stored in a sorted order.

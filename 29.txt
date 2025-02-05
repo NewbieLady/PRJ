@@ -1,4 +1,4 @@
-Which of the following is a benefit of using version control? Select all that apply.|Helps merge code changes and highlights potential conflicts.$Tracks changes and maintains a history of the project.$Organizes project versions and changes for better tracking.$Enables collaboration among multiple developers.
+Which of the following is a benefit of using version control? Select all that apply.|Tracks changes and maintains a history of the project.$Enables collaboration among multiple developers.
 True or False: GitHub is an online platform that hosts remote repositories, and Git is a tool to manage version control locally.|True
 True or False: Git can be installed on Windows, macOS, and Linux systems.|True
 What is the first step in setting up a GitHub account?|Create a username and password on GitHub.
@@ -15,3 +15,7 @@ Which of the following would you use to list all remote repositories linked to y
 What is the purpose of the develop branch in Gitflow?|It is used for ongoing development and features.
 What does the git status command do?|It displays changes made in your local working directory.
 Your team is working on a project with multiple feature branches, but frequent merge conflicts disrupt the workflow when changes are integrated into the main branch. You've been asked to explore whether using git rebase could help reduce conflicts and improve collaboration. Which of the following statements about git rebase are correct? Select all that apply.|Rebasing rewrites history, which can make the project history cleaner and easier to follow.$Rebasing helps reduce merge conflicts by replaying commits on top of another branch.
+Which of the following commands is used to verify if Git is installed correctly?|git --version
+Which of the following is a correct commit message format?|git commit -m "Fix bug in user authentication feature, resolve login issue with invalid credentials
+What is the purpose of git push?|To upload local changes to a remote repository
+Which command would you use to create a new Git repository in your project folder?|git init

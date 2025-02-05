@@ -15,3 +15,5 @@ Netflix leverages digital transformation by using data analytics and machine lea
 Which of the following is a characteristic of a neural network?|Composed of input, hidden, and output layers.
 Which of the following best explains the difference between Artificial Intelligence (AI) and Machine Learning (ML)?|ML is a subset of AI, where ML helps computers learn from data to make decisions or predictions.
 What is the role of neurons in a neural network?|Neurons process inputs and pass the output to the next layer.
+Which of the following correctly describes the purpose of weights in a neural network?|Weights determine the connections between neurons and influence how data flows through the network.
+Fill in the blanks: A company is building a system that learns from historical data to predict future trends in sales. This system is an example of _ _ _ _ _ _.|Machine Learning (ML)

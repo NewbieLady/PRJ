@@ -15,3 +15,8 @@ Which of the following best describes the purpose of a foreign key?|To enforce d
 Which SQL statement correctly retrieves all books published after the year 2000?|SELECT * FROM Books WHERE YearPublished > 2000;
 True or False: The INNER JOIN keyword selects records that have matching values in both tables.|True
 True or False: The UNION operator combines the result sets of two or more SELECT statements and removes duplicate rows by default.|True
+You are tasked with creating a table in your company's database called Usernames to store user information. However, when you run the following SQL statement, you encounter an error: 1 2 3 CREATE Usernames TABLE ( UsernameID INT PRIMARY KEY, Username); What are the errors in this SQL statement? Select all that apply.|The data type for the Username column is missing.$CREATE Usernames TABLE should be CREATE TABLE Usernames.
+True or False: The VARCHAR data type is used to store text data with a fixed length in SQL.|False
+True or False: A table can have multiple primary keys.|False
+Complete the SQL statement to define a foreign key in the Orders table that references the Customers table: 1 2 3 ALTER TABLE Orders ADD CONSTRAINT fk_CustomerID FOREIGN KEY (CustomerID) __________ Customers(CustomerID);|REFERENCES
+Complete the SQL statement to combine two result sets from different tables and remove duplicates: 1 2 3 4 5 SELECT Name FROM Employees ________ SELECT Name FROM Contractors;|UNION

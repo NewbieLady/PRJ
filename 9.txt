@@ -17,3 +17,6 @@ True or false: In a queue, new elements are always added to the rear (end) of th
 In a queue data structure, what does the dequeue operation do?|Removes the element at the front of the queue
 You have an array of integers with 10 elements. How would you access the fifth element in the array?|arr[4]
 True or false: Operating systems use the queue data structure to manage the printer spooling mechanism.|True
+Consider the following array int[] arr = {11,2,35,4,58};. What is the index of the number 11 in this array?|0
+Which of the following is the correct syntax for declaring an ArrayList?|ArrayList<String> stringList = new ArrayList<String>();
+Which method removes elements from an ArrayList in Java? Select all that apply.|clear()$remove(Object o)$remove(int index)

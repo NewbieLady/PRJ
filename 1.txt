@@ -16,3 +16,8 @@ Salma is writing a Java program to store a greeting message. She encounters an e
 Which data type is used to store decimal numbers in Java?|double
 To represent a logical OR operation in Java, use ________.|||
 Select the correct output for the following code: 1 2 3 4 5 6 public class Main { public static void main(String[] args) { int remainder = 14 % 5; System.out.println(remainder); } }|4
+If count = 30, what is the new value of count after count -= 5?|25
+Select the correct output for the following code: 1 2 3 4 5 6 7 8 public class Main { public static void main(String[] args) { int num1 = 5; int num2 = 5; boolean result = num1 >= num2; System.out.println(result); } }|true
+Lee is creating a scheduling application where she needs to display the day and time of an event in a readable format. How can she concatenate the Strings day = "Monday" and time = "Morning" with the word "and" in between?|day + " and " + time
+Tom is debugging his Java program and comes across a line of code that is causing an error. What is wrong with the following code snippet that Tom identifies? int number = 10.5;|The variable type int cannot hold decimal values.
+In Java, Strings are mutable, meaning they can be changed after creation.|False
