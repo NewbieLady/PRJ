@@ -21,3 +21,6 @@ Consider the following array int[] arr = {11,2,35,4,58};. What is the index of t
 Which of the following is the correct syntax for declaring an ArrayList?|ArrayList<String> stringList = new ArrayList<String>();
 Which method removes elements from an ArrayList in Java? Select all that apply.|clear()$remove(Object o)$remove(int index)
 Which of the following is a characteristic of a doubly linked list?|Each node points to both the next node and the previous node
+Consider the following array: int[] arr = {11,22,33,44,55}; True or false: The statement arr[2] = 100;overwrites the element at index 2.|True
+Given the array declaration int[] numbers = new int[]{1,2,3,4,5};, which of the following is the correct way to find the length of the array?|numbers.length
+How can you add a new element to an existing array in Java?|Create a new array with a size of the current array's length + 1, copy the existing elements, and add the new element at the last index

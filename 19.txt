@@ -22,3 +22,6 @@ Which of the following statements creates a block-scoped variable in JavaScript?
 In JavaScript, how does a catch block function when used after a try block?|It handles errors that occur in the try block.
 Which tag represents a cell in a table?|<td>
 True or False: Every image in HTML mandatorily has an alt attribute for accessibility.|False
+Which HTML element is used for a row in a table?|<tr>
+Which <form> tag attribute specifies where form data should be submitted?|action
+What value of flex-direction arranges Flexbox items vertically?|column

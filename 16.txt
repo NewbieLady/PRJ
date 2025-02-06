@@ -23,3 +23,6 @@ Identify and fix the error in the following code, which attempts to alter a tabl
 True or False: In the JDBC architecture, the JDBC driver is responsible for translating Java method calls into database-specific commands.|True
 Which method is used to execute SQL DDL statements in JDBC?|executeUpdate()
 Fill in the blank with the correct SQL command to update records in a table: 1 ______ users SET name='John' WHERE id=1;|UPDATE
+Which code snippet correctly demonstrates how to obtain a connection from a DataSource in JDBC?|Connection conn = dataSource.getConnection();
+Identify and fix the error in the following code, which attempts to handle an SQLException: 1 2 3 4 5 6 7 try { Statement stmt = connection.createStatement(); stmt.executeUpdate("UPDATE users SET name='Alice' WHERE id=1"); } catch (SQLException e) { e.log(); }|Replace e.log() with System.out.println("Error: " + e.getMessage()) and e.printStackTrace().
+Identify and fix the error in the following SQL command, which adds a new column to a table: 1 ADD COLUMN users email VARCHAR(50);|Replace ADD COLUMN with ALTER TABLE and add ADD after the table name.

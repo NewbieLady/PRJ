@@ -33,3 +33,4 @@ You are reviewing code where a class member is declared with the protected acces
 To create an object myCar of class Car, which syntax is correct?|Car myCar = new Car();
 How would you use a do-while loop to calculate the factorial of a given positive integer n?|1 2 3 4 5 6 7 int factorial = 1; int i = 1; do { factorial *= i; i++; } while (i <= n);
 In a Java program, you are creating a feature that assigns a grade based on a student's score. The grades are "A" for 90-100, "B" for 80-89, "C" for 70-79, "D" for 60-69, and "F" for below 60. Which switch statement correctly assigns the grade based on the student's score?|1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 switch (score / 10) { case 10: case 9: grade = 'A'; break; case 8: grade = 'B'; break; case 7: grade = 'C'; break; case 6: grade = 'D'; break; default: grade = 'F'; }
+How do you read the value of salary from an object employee of class Employee?|employee.salary;

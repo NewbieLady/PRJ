@@ -22,3 +22,4 @@ Which of the following is an example of a software design pattern?|Singleton
 Your team is designing an online payment system. The workflow includes steps like verifying user identity, processing payments, and sending confirmation emails. Which UML diagram would best represent this process flow?|Activity diagram
 True or False: The system architecture defines the overall structure and interaction between components of the system.|True
 A fitness app is struggling to retain users during the sign-up process. Analytics reveal that most users abandon the process midway. Which of the following is most likely contributing to this issue?|The app's sign-up process is too lengthy and requires excessive effort from users.
+Which of the following best describes a wireframe?|A simple structural outline of the web page, focusing on layout without detailed design elements.

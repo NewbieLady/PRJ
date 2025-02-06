@@ -21,3 +21,5 @@ True or False: Thymeleaf templates allow you to bind form data directly to model
 Which of the following is true about the @Service annotation in Spring Boot?|It separates business logic from the controller, promoting organized code.
 Which annotation is used to mark a class as a JPA entity?|@Entity
 Which annotation marks a class as a Spring MVC controller?|@Controller
+Which of these endpoints provides detailed information on application metrics?|/actuator/metrics
+Which of these Thymeleaf attributes displays the text content of an element?|th:text

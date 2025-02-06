@@ -19,3 +19,5 @@ Which of the following components are included in a test case? Select all that a
 True or False: Jenkins is used as a continuous integration tool, not for writing Java tests.|True
 What role does JUnit play in Test Driven Development (TDD) when testing Java code?|JUnit helps in writing unit tests before writing the actual code.
 You are working on a software project with a team of developers. You need a system that allows everyone to work on the same codebase, track changes over time, and collaborate efficiently. Which of the following will help you achieve this?|A version control system like Git.
+True or False: White box testing is concerned only with the internal behavior of the system.|False
+Which of the following is an advantage of automated testing over manual testing? Select all that apply.|Consistent repetition of tests$Faster execution time

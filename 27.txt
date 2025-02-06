@@ -20,3 +20,4 @@ Which of the following is the first phase of the Software Development Life Cycle
 Which of the following is a disadvantage of the Waterfall model?|Hard to accommodate changes after the process starts.
 What is the primary focus of Agile methodology?|Iterative development and frequent delivery of working software.
 True or False: RAD emphasizes quick development and iterative prototyping over extensive planning.|True
+Which tools would you use when running applications in lightweight and isolated environments?|Docker and Kubernetes

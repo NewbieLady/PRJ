@@ -70,3 +70,9 @@ Fill in the blank to correctly map a method to handle HTTP DELETE requests: 1 2 
 Which of the following HTML elements is used to create a dropdown in a form?|<select>
 Your API provides the details of a product. Which of the following are valid ways to use ResponseEntity to return the product details? Select all that apply.|return ResponseEntity.badRequest().body(product);$return ResponseEntity.ok(product);$return ResponseEntity.status(200).body(product);
 In theCSS Box Model, which property controls the space between the content and the border?|padding
+True or False: In CSS, a hashtag (#) is used to target an element by its class attribute.|False
+You are configuring your Spring Boot application and want to set up a custom server port. Complete the following line in the application.properties file to change the server port to 8081: .port =8081 What is the missing--------?|server
+You are building a Spring MVC web application. Which annotation would you use to bind a request parameter named id from the URL to a method parameter in a controller?|@PathVariable
+You are building a Spring MVC application to manage products. The user submits the data to add a new product of the type represented by the class Product using JSON format. 1 2 3 4 5 public String addProduct(------- Product product) { // Business logic return "productAdded"; } What should replace the --------?|RequestBody
+Complete the following code snippet: 1 2 3 4 fetch('https://api.test.com/data') .then(response => response.json() )---------(error => { console.error('Network error:', error); }); What will be the code for ---------|catch()
+You want to create a form field that allows users to select their favorite color. Which of the following input types would you use? <input type="--------"> What is the type that will replace--------?|color

@@ -24,3 +24,4 @@ Sarah needs to check whether a directory named "projects" exists in her workspac
 What would the following code snippet do? 1 2 3 4 5 6 7 FileReader fileReader =newFileReader("text.txt"); BufferedReader bufferedReader =newBufferedReader(fileReader)); Stringline; while((line = bufferedReader.readLine()) != null) { System.out.println(line); } bufferedReader.close();|Read and print text data from "text.txt".
 What does the following code snippet demonstrate? 1 2 3 BufferedReader bufferedReader = new BufferedReader( new InputStreamReader(new FileInputStream("data.txt"), "UTF-8") );|Reading data from "data.txt" with UTF-8 encoding.
 Jane needs to save user profile pictures in a binary format. Which class combination should she use in Java?|FileOutputStream and DataOutputStream
+John needs to store user data in human readable format, that can be retrieved later. Which type of file should he use for storing text-based user information?|Text file

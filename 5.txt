@@ -22,3 +22,5 @@ Which of the following statements regarding abstraction in Java are true? Select
 True or False: Class hierarchies do not have interfaces.|False
 Which of the following statements is true about an interface?|An interface can be implemented by unrelated classes.
 True or False: You can achieve abstraction by employing the concept of interfaces.|True
+True or False: The declaration of class is syntactically correct in the following code segment: 1 2 3 4 5 6 7 interface Controller { } class Player implements interface Controller { }|False
+Which of the following correctly describes how you can structure a try-catch-finally construct in Java? Select all that apply.|A try block with an associated catch block but no finally block.$A try block with no catch block but a finally block.$A try block with multiple catch blocks and a single finally block.

@@ -21,3 +21,7 @@ Select the correct output for the following code: 1 2 3 4 5 6 7 8 public class M
 Lee is creating a scheduling application where she needs to display the day and time of an event in a readable format. How can she concatenate the Strings day = "Monday" and time = "Morning" with the word "and" in between?|day + " and " + time
 Tom is debugging his Java program and comes across a line of code that is causing an error. What is wrong with the following code snippet that Tom identifies? int number = 10.5;|The variable type int cannot hold decimal values.
 In Java, Strings are mutable, meaning they can be changed after creation.|False
+Anwar is writing a program to manage user profiles. He needs to declare a boolean variable to indicate whether a user is a student. How would Anwar declare a boolean variable named isStudent and initialize it to true?|boolean isStudent = true;
+Select the correct output for the following code: 1 2 3 4 5 6 public class Main { public static void main(String[] args) { int remainder = 22 % 6; System.out.println(remainder); } }|4
+The symbol for the logical AND operator in Java is ________|&&
+Which of the following is a valid variable name?|my_variable

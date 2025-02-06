@@ -73,3 +73,9 @@ What is the primary function of Amazon Q Developer in software development?|To s
 Neural networks learn by adjusting _ _ _ _ _ _.|Weights and biases during training.
 A company plans to scale its AI system to handle millions of users. What could be the possible solutions for this process? Select all that apply.|Load balancing.$Elasticity.
 A hospital uses an AI system to recommend treatments. Why is interpretability important in this scenario? Select all that apply.|To help patients trust AI-generated treatment plans.$To comply with regulations.$To ensure doctors understand how the AI arrived at its recommendations.
+Machine Learning (ML) is a subset of Artificial Intelligence (AI) that _ _ _ _ _ _.|Learns from data and improves without explicit programming.
+The four key domains of digital transformation include technology, data, process, and _ _ _ _ _.|Change management
+Which of the following technologies is commonly associated with driving digital transformation?|Internet of Things (IoT)
+Techniques like LIME and SHAP are used in AI to _ _ _ _ _ _.|Explain predictions and enhance model transparency.
+Compliance in AI ensures that systems adhere to _ _ _ _ _ _.|Legal and ethical standards, like GDPR.
+What is a primary ethical consideration when deploying AI systems in business?|Ensuring data privacy and protection.
