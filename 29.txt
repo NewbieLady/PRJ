@@ -19,3 +19,5 @@ Which of the following commands is used to verify if Git is installed correctly?
 Which of the following is a correct commit message format?|git commit -m "Fix bug in user authentication feature, resolve login issue with invalid credentials
 What is the purpose of git push?|To upload local changes to a remote repository
 Which command would you use to create a new Git repository in your project folder?|git init
+You're working on a collaborative project that includes various file types, such as source code, documentation, configuration files, and images. To ensure smooth collaboration and maintain a history of changes, your team is considering using a version control system (VCS). Which of the following statements about version control systems are correct? Select all that apply.|Version control systems can track changes in all types of files, not just code.$Version control systems are mainly used for tracking source code but also manage other project files like images and documents.
+When installing Git on your system, which configuration step is required?|Set up a username and email address for Git to associate with commits.

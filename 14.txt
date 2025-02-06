@@ -1,7 +1,7 @@
 Which of the following statements correctly describes a table in a relational database? Select all that apply.|A table is a collection of related data items.$A table is a collection of records containing a set of fields.$A table organizes data entries into columns and rows.
 You are a database administrator tasked with creating a table called Books to store information about a collection of books. The table should include a BookID column for unique identifiers and a Title column that stores book titles as variable-length text data. Complete the SQL statement to correctly define the Title column: 1 2 3 CREATE TABLE Books ( BookID INT, Title __________(255));|VARCHAR
 You have been asked to create a table named Orders in the company's database to manage order information. The table should have a primary key to uniquely identify each order. Here is the SQL statement you wrote: 1 2 3 4 5 CREATE TABLE Orders ( OrderID INT, CustomerID INT, PRIMARY __________ (OrderID) ); After reviewing the statement, you realize something is missing. What is missing from the SQL statement to correctly define a primary key for the Orders table?|KEY
-True or False: A foreign key in a table is a field that uniquely identifies a row in another table.|False
+True or False: A foreign key in a table is a field that uniquely identifies a row in another table.|True
 You are analyzing a large dataset of customer information stored in the Customers table of a company's database. You want to retrieve only the records of customers located in the city of New York. You need to use an SQL statement that filters the records based on the city to do this. Which SQL clause would you use to filter the records to meet this condition?|WHERE
 What is missing in the following SQL statement that aims to sort book titles in descending order? 1 2 3 SELECT Title FROM Books __________ Title DESC;|ORDER BY
 1 2 SELECT __________(Price) AS TotalPrice FROM Books;|SUM
@@ -20,3 +20,7 @@ True or False: The VARCHAR data type is used to store text data with a fixed len
 True or False: A table can have multiple primary keys.|False
 Complete the SQL statement to define a foreign key in the Orders table that references the Customers table: 1 2 3 ALTER TABLE Orders ADD CONSTRAINT fk_CustomerID FOREIGN KEY (CustomerID) __________ Customers(CustomerID);|REFERENCES
 Complete the SQL statement to combine two result sets from different tables and remove duplicates: 1 2 3 4 5 SELECT Name FROM Employees ________ SELECT Name FROM Contractors;|UNION
+Which SQL keyword is used to sort the result set of a query in descending order?|DESC
+Which SQL function is used to calculate the minimum value of a numeric column?|MIN
+Which SQL clause is used to group rows that have the same values into summary rows, like totals?|GROUP BY
+Identify the error in the following SQL statement that attempts to filter records from the Books table where the Price is greater than 20. Select all that apply. 1 2 3 SELECT * FROM Books WHERE Price > '20';|Quotes around 20$Missing column names

@@ -23,3 +23,6 @@ Which JUnit method is used to validate that a specific exception is thrown durin
 True or false: The saveBook method in BookService can handle duplicate IDs without overwriting data.|False
 What maintenance challenge does this scenario highlight? 1 2 3 4 Scenario: - A bug was introduced during a code update. - There is no documentation or version history for the module. - The team spends two weeks troubleshooting the issue.|Lack of proper documentation
 A developer creates a method that validates user input, logs the data, and updates the database. Which clean code principle is being violated?|Single Responsibility Principle
+A team discovers that a recent code change caused a critical feature to fail, requiring significant rework. What could have prevented this?|Regular code reviews and proper documentation
+True or false: Breakpoints should always be placed at the start of a program to debug effectively.|False
+Which best practice ensures service layer tests are independent?|Initialize fresh service instances for each test case.

@@ -67,3 +67,9 @@ When integrating AI into existing systems, businesses must address _ _ _ _ _ _.|
 When scaling AI systems, businesses must focus on balancing and leveraging _ _ _ _ _ _.|Advanced infrastructure, algorithms, and cloud computing.
 A team uses Amazon Q Developer to complete boilerplate code for a web application. Which tasks might the tool assist with? Select all that apply.|Generating code templates for common tasks like authentication.$Suggesting fixes for incomplete code snippets.$Identifying and resolving syntax errors.
 A neural network is struggling to classify apples accurately. Which strategies could improve its performance? Select all that apply.|Adding more training data to improve generalization$Adjusting the weights.
+Generative AI in software development primarily aims to _ _ _ _ _ _.|Assist developers in creating software solutions and improving productivity.
+Generative AI is a branch of artificial intelligence that _ _ _ _ _ _.|Focuses on creating new content from learned patterns.
+What is the primary function of Amazon Q Developer in software development?|To suggest, complete, and debug code within an IDE.
+Neural networks learn by adjusting _ _ _ _ _ _.|Weights and biases during training.
+A company plans to scale its AI system to handle millions of users. What could be the possible solutions for this process? Select all that apply.|Load balancing.$Elasticity.
+A hospital uses an AI system to recommend treatments. Why is interpretability important in this scenario? Select all that apply.|To help patients trust AI-generated treatment plans.$To comply with regulations.$To ensure doctors understand how the AI arrived at its recommendations.

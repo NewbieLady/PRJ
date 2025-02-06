@@ -31,3 +31,6 @@ Which sorting algorithm performs most efficiently for small datasets?|Insertion 
 What is an advantage of Merge Sort over Quick Sort?|It is stable and always O(n log n).
 What is the worst-case time complexity of Quick Sort?|O(n2)
 What is the primary benefit of using a TreeMap over a HashMap?|Elements are stored in a sorted order.
+You are developing a rainfall tracking system that needs to store monthly average rainfall values for a year. Which of the following correctly declares an array to store 12 monthly average rainfall values?|double rainfall[] = new double[12];
+Which code snippet correctly checks for balanced parentheses in the string "{[()]}" using a stack?|1 2 3 4 5 6 7 8 9 10 11 Stack<Character> stack = new Stack<>(); for (char c : "{[()]}".toCharArray()) { if (c == '(' || c == '{' || c == '[') { stack.push(c); } else { if (stack.isEmpty()) return false; char top = stack.pop(); if (c == ')' && top != '(' || c == '}' && top != '{' || c == ']' && top != '[') return false; } } return stack.isEmpty();
+How can you find the middle node of a singly linked list in one pass?|Use two pointers: one moves one step at a time, the other two steps.

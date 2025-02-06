@@ -20,3 +20,5 @@ Which of the following statements is true about an abstract class?|An abstract c
 True or False: An abstract class can implement an interface.|True
 Which of the following statements regarding abstraction in Java are true? Select all that apply.|Abstraction refers to hiding unnecessary details about an object from the user, and only exposing the necessary information.$Abstraction helps in building class hierarchies.$Abstraction promotes code reuse.
 True or False: Class hierarchies do not have interfaces.|False
+Which of the following statements is true about an interface?|An interface can be implemented by unrelated classes.
+True or False: You can achieve abstraction by employing the concept of interfaces.|True

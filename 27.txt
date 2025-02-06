@@ -16,3 +16,7 @@ Which of the following is a key characteristic of the Rapid Application Developm
 True or False: DevOps focuses solely on automating tasks without emphasizing collaboration between teams.|False
 A software development team is working on a new e-commerce application. They need a document that clearly defines the features the system should have, such as user login, product search, and payment processing, as well as constraints like performance, security, and usability standards. What document should the team create to outline these functional and non-functional requirements?|Software Requirement Specification (SRS)
 Which of the following SDLC models are iterative in nature? Select all that apply.|Agile Model$Spiral-Model
+Which of the following is the first phase of the Software Development Life Cycle (SDLC)?|Planning phase
+Which of the following is a disadvantage of the Waterfall model?|Hard to accommodate changes after the process starts.
+What is the primary focus of Agile methodology?|Iterative development and frequent delivery of working software.
+True or False: RAD emphasizes quick development and iterative prototyping over extensive planning.|True

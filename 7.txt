@@ -20,3 +20,7 @@ Tom needs to read user input from a file named "input.txt." Which class should T
 What does the following code do? 1 2 3 FileWriter fileWriter =newFileWriter("output.txt"); fileWriter.write("Hello,World!"); fileWriter.close();|Writes "Hello, World!" to "output.txt".
 David needs to process a text file containing UTF-8 encoded data. Which stream type should he use?|Character stream
 Mark needs to write user input to a text file called "user_input.txt" line by line. Which combination of classes should he use?|FileWriter and BufferedWriter
+Sarah needs to check whether a directory named "projects" exists in her workspace. Which method should Sarah use?|exists()
+What would the following code snippet do? 1 2 3 4 5 6 7 FileReader fileReader =newFileReader("text.txt"); BufferedReader bufferedReader =newBufferedReader(fileReader)); Stringline; while((line = bufferedReader.readLine()) != null) { System.out.println(line); } bufferedReader.close();|Read and print text data from "text.txt".
+What does the following code snippet demonstrate? 1 2 3 BufferedReader bufferedReader = new BufferedReader( new InputStreamReader(new FileInputStream("data.txt"), "UTF-8") );|Reading data from "data.txt" with UTF-8 encoding.
+Jane needs to save user profile pictures in a binary format. Which class combination should she use in Java?|FileOutputStream and DataOutputStream

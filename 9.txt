@@ -20,3 +20,4 @@ True or false: Operating systems use the queue data structure to manage the prin
 Consider the following array int[] arr = {11,2,35,4,58};. What is the index of the number 11 in this array?|0
 Which of the following is the correct syntax for declaring an ArrayList?|ArrayList<String> stringList = new ArrayList<String>();
 Which method removes elements from an ArrayList in Java? Select all that apply.|clear()$remove(Object o)$remove(int index)
+Which of the following is a characteristic of a doubly linked list?|Each node points to both the next node and the previous node

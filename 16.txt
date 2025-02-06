@@ -20,3 +20,6 @@ Identify and fix the error in the following code, which attempts to create a tab
 Which of the following code snippets is the proper way to handle and log SQL exceptions in JDBC?|1 2 3 4 5 catch (SQLException e) { System.out.println("Error: " + e.getMessage()); e.printStackTrace(); }
 You are transferring $500 from Account A to Account B. The debit from Account A and the credit to Account B must either occur together or not at all. Which JDBC feature ensures this?|Transaction management
 Identify and fix the error in the following code, which attempts to alter a table's structure: 1 2 3 Statement stmt = connection.createStatement(); stmt.executeQuery("ALTER TABLE students ADD COLUMN age INT");|Replace executeQuery() with executeUpdate().
+True or False: In the JDBC architecture, the JDBC driver is responsible for translating Java method calls into database-specific commands.|True
+Which method is used to execute SQL DDL statements in JDBC?|executeUpdate()
+Fill in the blank with the correct SQL command to update records in a table: 1 ______ users SET name='John' WHERE id=1;|UPDATE

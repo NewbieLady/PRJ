@@ -66,3 +66,12 @@ What is the purpose of the git commit command in the following code block? 1 2 3
 True or false: SLF4J is a logging facade that can work with different logging frameworks, such as Log4j.|True
 Mockups are used to ____ the final look and feel of a design.|Illustrate
 A new developer struggles to update a feature because the previous developer left no documentation. What maintenance challenge does this highlight?|Knowledge transfer issues
+True or False: A login form requires validation for username and password. This is an example of a functional requirement|True
+You are reviewing the implementation of a "Save" feature based on the user story and acceptance criteria below. User story: Add a save button Acceptance criteria: The button must save data. The button must provide feedback on saving (success/failure). True or False: Based on the initial implementation provided, the saveData method fully meets the acceptance criteria. 1 2 3 4 5 public void saveData() { // Code to save data }|False
+True or false: In a library system UML diagram, the relationship between a book and genres is best represented as a many-to-many relationship (..).|True
+How does an epic differ from a user story? Select all that apply.|An epic spans multiple iterations, while a user story is typically completed within one iteration.$An epic represents a larger requirement split into multiple user stories.$An epic focuses on broader objectives, while a user story focuses on specific user needs.
+What is the correct security configuration for handling successful login?|Set redirect URL to "/" and configure success handler.
+Which principle of clean code ensures that methods have a specific purpose?|Single Responsibility Principle
+What is the primary purpose of using logging in an application?|To monitor and troubleshoot application behavior
+What is the main purpose of version control in software development?|To track and manage changes to code over time
+A controller test needs to simulate the behavior of a service method without calling its actual implementation. What approach should the developer use?|Mock the service layer

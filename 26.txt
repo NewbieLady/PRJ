@@ -15,3 +15,10 @@ In agile methodology, what is the relationship between iteration and increment?|
 An e-commerce website experiences a high drop-off rate during the checkout process. Feedback reveals that users find the process frustrating and time-consuming. Which of the following improvements would most likely reduce abandonment rates?|Reducing the number of required steps to complete the checkout.
 True or False: Good UX design focuses on improving the satisfaction and experience of users when interacting with a system.|True
 Users testing a project management dashboard report feeling overwhelmed by the amount of information displayed. What principle of good UI design should the team prioritize?|Conciseness - reducing the dashboard's complexity by focusing on the most critical information.
+True or False: Functional requirements define the system's behavior, features, and operations.|True
+Which of the following is an example of a functional requirement?|The system must process a payment transaction.
+Which of the following is NOT an attribute of the INVEST criteria for writing good user stories?|Innovative - a user story should introduce novel solutions or ideas.
+Which of the following is an example of a software design pattern?|Singleton
+Your team is designing an online payment system. The workflow includes steps like verifying user identity, processing payments, and sending confirmation emails. Which UML diagram would best represent this process flow?|Activity diagram
+True or False: The system architecture defines the overall structure and interaction between components of the system.|True
+A fitness app is struggling to retain users during the sign-up process. Analytics reveal that most users abandon the process midway. Which of the following is most likely contributing to this issue?|The app's sign-up process is too lengthy and requires excessive effort from users.

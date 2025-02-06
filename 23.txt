@@ -18,3 +18,7 @@ How do developers interact with Generative AI tools? Select all that apply.|Prov
 What is a feature of AI-powered refactoring tools?|Detecting redundant code for removal.
 What role does Generative AI play in automating code reviews?|Highlighting inefficiencies and suggesting improvements.
 How can AI enhance the quality of code reviews? Select all that apply.|By enforcing coding best practices.$By reducing review times significantly.$By suggesting modularization for large functions.
+What are the main features of Amazon Q Developer? Select all that apply|Explaining existing code logic.$Code generation.
+How can Generative AI tools assist developers? Select all that apply.|By generating reusable code snippets.$By explaining code logic in simpler terms.
+True or false: AI tools can only generate boilerplate code for specific programming languages.|False
+How does AI assist in improving code reviews?|By automated code inspection

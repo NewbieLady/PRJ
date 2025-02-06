@@ -20,3 +20,5 @@ Which CSS selector would you use to select all elements with the class highlight
 In the box model, which area is closest to the content|padding
 Which of the following statements creates a block-scoped variable in JavaScript?|let name = "John";
 In JavaScript, how does a catch block function when used after a try block?|It handles errors that occur in the try block.
+Which tag represents a cell in a table?|<td>
+True or False: Every image in HTML mandatorily has an alt attribute for accessibility.|False
